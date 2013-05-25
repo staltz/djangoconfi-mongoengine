@@ -92,7 +92,6 @@ db.users.save(fooman);
 					</div>
 				</section>
 				
-				<section>
 					<section>
 						<h2>Why MongoDB for Django?</h2>
 						<h3><strong>The &ldquo;pythonic database&rdquo;</strong></h3>
@@ -114,7 +113,6 @@ person = {
 	"work" : null
 };
 						</code></pre>
-						&darr;
 					</section>
 					<section>
 						<blockquote>
@@ -133,7 +131,6 @@ person = {
 						</blockquote>
 						&mdash;Will Shulman, CEO & Co-founder of <a href="http://www.mongolab.com">MongoLab</a>
 					</section>
-				</section>
 				
 				<section>
 					<h2>Real world example</h2>
@@ -324,7 +321,6 @@ assert isinstance(user, mongoengine.django.auth.User)
 					</code></pre>
 				</section>
 				
-				<section>
 					<section>
 						<h2>Hack the test runner</h2>
 						<br />
@@ -356,7 +352,6 @@ TEST_RUNNER = 'yourproject.tests.NoSQLTestRunner'
 						<br />
 						<a href="https://github.com/xintron/django-mongorunner">https://github.com/xintron/django-mongorunner</a>
 					</section>
-				</section>
 				
 				<section>
 					<h2>MongoEngine is good</h2>
@@ -423,7 +418,7 @@ TEST_RUNNER = 'yourproject.tests.NoSQLTestRunner'
 			// Full list of configuration options available here:
 			// https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
-				controls: false,
+				controls: true,
 				progress: false,
 				history: true,
 				center: true,
